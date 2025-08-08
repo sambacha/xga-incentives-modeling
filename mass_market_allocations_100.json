@@ -1,0 +1,495 @@
+{
+  "strategy_parameters": {
+    "strategy": "mass_market",
+    "parameters": {
+      "total_supply": 12367521514.334301,
+      "airdrop_percent": 55.6,
+      "launch_price": 0.291085,
+      "opportunity_cost": 2.0,
+      "volatility": 30.0,
+      "gas_cost": 10.0,
+      "campaign_duration": 3,
+      "airdrop_certainty": 50.0,
+      "revenue_share": 10.0,
+      "vesting_months": 18,
+      "immediate_unlock": 30.0,
+      "beta": 1.01,
+      "hurdle_rate": 10.0,
+      "penalties": null
+    },
+    "analysis": {
+      "invariants": {
+        "price_below_050": true,
+        "supply_min_2b": true,
+        "opp_cost_min_2": true,
+        "airdrop_very_high": true,
+        "hurdle_rate_viable": true,
+        "market_cap_reasonable": true,
+        "majority_users_profitable": true
+      },
+      "invariants_satisfied": 7,
+      "invariants_total": 7,
+      "all_invariants_met": true,
+      "market_cap": 3600000000.0,
+      "airdrop_value": 2001600000.0000002,
+      "profitable_population_percent": 100.0,
+      "quality_score": 91.95830000000001
+    },
+    "segment_results": [
+      {
+        "segment": "Retail (<$1k)",
+        "profitable": true,
+        "roi_percent": 78136.13487385481,
+        "allocation": 1612645.1354179326,
+        "gross_value": 469416.80924312887
+      },
+      {
+        "segment": "Power Users ($1-10k)",
+        "profitable": true,
+        "roi_percent": 25942.566476790664,
+        "allocation": 5099631.685511339,
+        "gross_value": 1484426.289177068
+      },
+      {
+        "segment": "Whales ($10-100k)",
+        "profitable": true,
+        "roi_percent": 8357.960526903224,
+        "allocation": 16126451.354179326,
+        "gross_value": 4694168.092431289
+      },
+      {
+        "segment": "Institutions (>$100k)",
+        "profitable": true,
+        "roi_percent": 2594.0586010473103,
+        "allocation": 50996316.85511339,
+        "gross_value": 14844262.89177068
+      }
+    ],
+    "summary": {
+      "price": "$0.291",
+      "supply": "12,367,521,514",
+      "airdrop": "55.6%",
+      "market_cap": "$3,600,000,000",
+      "quality_score": "92.0/100",
+      "profitable_population": "100.0%"
+    }
+  },
+  "allocation_parameters": {
+    "utilization_factor": 1.0,
+    "total_airdrop_available": 6876341961.9698715
+  },
+  "detailed_results": [
+    {
+      "track_type": "Node Operator",
+      "participant_id": "NO_Micro",
+      "participant_tier": "power_user",
+      "capital_invested": 3000.0,
+      "points_earned": 2.619,
+      "capital_equivalent": 4119.0,
+      "risk_factor": 0.8,
+      "allocation_tokens": 13239592.457388174,
+      "allocation_value": 3853846.770458836,
+      "roi_percent": 128361.55901529452,
+      "model_used": "quadratic_enhanced",
+      "profitability_tier": "Extremely High",
+      "accessibility_score": 71.89150000000001
+    },
+    {
+      "track_type": "Node Operator",
+      "participant_id": "NO_Small",
+      "participant_tier": "power_user",
+      "capital_invested": 6000.0,
+      "points_earned": 11.229,
+      "capital_equivalent": 12921.749999999998,
+      "risk_factor": 0.8,
+      "allocation_tokens": 15064673.209163912,
+      "allocation_value": 4385100.401089477,
+      "roi_percent": 72985.00668482462,
+      "model_used": "quadratic_enhanced",
+      "profitability_tier": "Extremely High",
+      "accessibility_score": 62.07093761534405
+    },
+    {
+      "track_type": "Node Operator",
+      "participant_id": "NO_Medium",
+      "participant_tier": "whale",
+      "capital_invested": 15000.0,
+      "points_earned": 59.519999999999996,
+      "capital_equivalent": 44760.0,
+      "risk_factor": 0.8,
+      "allocation_tokens": 28037809.903465267,
+      "allocation_value": 8161385.895750186,
+      "roi_percent": 54309.23930500125,
+      "model_used": "quadratic_enhanced",
+      "profitability_tier": "Extremely High",
+      "accessibility_score": 49.30079029846587
+    },
+    {
+      "track_type": "Node Operator",
+      "participant_id": "NO_Large",
+      "participant_tier": "whale",
+      "capital_invested": 45000.0,
+      "points_earned": 282.0825,
+      "capital_equivalent": 173784.375,
+      "risk_factor": 0.8,
+      "allocation_tokens": 41003645.2658694,
+      "allocation_value": 11935546.082215594,
+      "roi_percent": 26423.435738256878,
+      "model_used": "quadratic_enhanced",
+      "profitability_tier": "Extremely High",
+      "accessibility_score": 47.42353433348258
+    },
+    {
+      "track_type": "Node Operator",
+      "participant_id": "NO_Enterprise",
+      "participant_tier": "institution",
+      "capital_invested": 150000.0,
+      "points_earned": 1318.68,
+      "capital_equivalent": 719505.0000000001,
+      "risk_factor": 0.8,
+      "allocation_tokens": 83432260.92080274,
+      "allocation_value": 24285879.670131866,
+      "roi_percent": 16090.586446754576,
+      "model_used": "quadratic_enhanced",
+      "profitability_tier": "Extremely High",
+      "accessibility_score": 46.13109317613198
+    },
+    {
+      "track_type": "Risk Underwriter",
+      "participant_id": "RU_Micro",
+      "participant_tier": "retail",
+      "capital_invested": 500.0,
+      "points_earned": 125.0,
+      "capital_equivalent": 500.0,
+      "risk_factor": 1.2,
+      "allocation_tokens": 68763.41961969872,
+      "allocation_value": 20016.0,
+      "roi_percent": 3903.2,
+      "model_used": "linear_enhanced",
+      "profitability_tier": "Extremely High",
+      "accessibility_score": 70.940692342705
+    },
+    {
+      "track_type": "Risk Underwriter",
+      "participant_id": "RU_Retail",
+      "participant_tier": "power_user",
+      "capital_invested": 2000.0,
+      "points_earned": 1000.0,
+      "capital_equivalent": 2000.0,
+      "risk_factor": 1.2,
+      "allocation_tokens": 275053.6784787949,
+      "allocation_value": 80064.0,
+      "roi_percent": 3903.2,
+      "model_used": "linear_enhanced",
+      "profitability_tier": "Extremely High",
+      "accessibility_score": 66.440692342705
+    },
+    {
+      "track_type": "Risk Underwriter",
+      "participant_id": "RU_Power",
+      "participant_tier": "whale",
+      "capital_invested": 15000.0,
+      "points_earned": 19500.0,
+      "capital_equivalent": 15000.0,
+      "risk_factor": 1.2,
+      "allocation_tokens": 1987880.6532424921,
+      "allocation_value": 578642.2399490908,
+      "roi_percent": 3757.6149329939385,
+      "model_used": "linear_enhanced",
+      "profitability_tier": "Extremely High",
+      "accessibility_score": 42.34166700928365
+    },
+    {
+      "track_type": "Risk Underwriter",
+      "participant_id": "RU_Whale",
+      "participant_tier": "institution",
+      "capital_invested": 225000.0,
+      "points_earned": 191250.0,
+      "capital_equivalent": 225000.0,
+      "risk_factor": 1.2,
+      "allocation_tokens": 22130927.86450263,
+      "allocation_value": 6441981.137438748,
+      "roi_percent": 2763.1027277505545,
+      "model_used": "linear_enhanced",
+      "profitability_tier": "Extremely High",
+      "accessibility_score": 41.54082507721909
+    },
+    {
+      "track_type": "Risk Underwriter",
+      "participant_id": "RU_Institution",
+      "participant_tier": "institution",
+      "capital_invested": 900000.0,
+      "points_earned": 1320000.0,
+      "capital_equivalent": 900000.0,
+      "risk_factor": 1.2,
+      "allocation_tokens": 88523711.45801052,
+      "allocation_value": 25767924.549754992,
+      "roi_percent": 2763.1027277505545,
+      "model_used": "linear_enhanced",
+      "profitability_tier": "Extremely High",
+      "accessibility_score": 41.54082507721909
+    },
+    {
+      "track_type": "Liquidity Provider",
+      "participant_id": "LP_Micro",
+      "participant_tier": "retail",
+      "capital_invested": 600.0,
+      "points_earned": 0.05,
+      "capital_equivalent": 600.0,
+      "risk_factor": 1.0,
+      "allocation_tokens": 5053058.731114427,
+      "allocation_value": 1470869.6007464428,
+      "roi_percent": 245044.93345774044,
+      "model_used": "quadratic_enhanced",
+      "profitability_tier": "Extremely High",
+      "accessibility_score": 79.0915
+    },
+    {
+      "track_type": "Liquidity Provider",
+      "participant_id": "LP_Small",
+      "participant_tier": "power_user",
+      "capital_invested": 3000.0,
+      "points_earned": 0.55,
+      "capital_equivalent": 3000.0,
+      "risk_factor": 1.0,
+      "allocation_tokens": 11298982.817070689,
+      "allocation_value": 3288964.4133070214,
+      "roi_percent": 109532.14711023404,
+      "model_used": "quadratic_enhanced",
+      "profitability_tier": "Extremely High",
+      "accessibility_score": 71.89150000000001
+    },
+    {
+      "track_type": "Liquidity Provider",
+      "participant_id": "LP_Medium",
+      "participant_tier": "whale",
+      "capital_invested": 15000.0,
+      "points_earned": 6.0,
+      "capital_equivalent": 15000.0,
+      "risk_factor": 1.0,
+      "allocation_tokens": 16230977.566648697,
+      "allocation_value": 4724594.104987936,
+      "roi_percent": 31397.294033252903,
+      "model_used": "quadratic_enhanced",
+      "profitability_tier": "Extremely High",
+      "accessibility_score": 47.87293631288419
+    },
+    {
+      "track_type": "Liquidity Provider",
+      "participant_id": "LP_Large",
+      "participant_tier": "whale",
+      "capital_invested": 75000.0,
+      "points_earned": 48.75,
+      "capital_equivalent": 75000.0,
+      "risk_factor": 1.0,
+      "allocation_tokens": 36293569.18030061,
+      "allocation_value": 10564513.584847802,
+      "roi_percent": 13986.018113130402,
+      "model_used": "quadratic_enhanced",
+      "profitability_tier": "Extremely High",
+      "accessibility_score": 45.765850823743506
+    },
+    {
+      "track_type": "Liquidity Provider",
+      "participant_id": "LP_Whale",
+      "participant_tier": "institution",
+      "capital_invested": 300000.0,
+      "points_earned": 280.0,
+      "capital_equivalent": 300000.0,
+      "risk_factor": 1.0,
+      "allocation_tokens": 53873815.15514546,
+      "allocation_value": 15681859.484435515,
+      "roi_percent": 5127.286494811839,
+      "model_used": "quadratic_enhanced",
+      "profitability_tier": "Extremely High",
+      "accessibility_score": 43.15133367586682
+    },
+    {
+      "track_type": "Auction Participant",
+      "participant_id": "AP_Novice",
+      "participant_tier": "power_user",
+      "capital_invested": 2000.0,
+      "points_earned": 120.0,
+      "capital_equivalent": 424.0,
+      "risk_factor": 1.5,
+      "allocation_tokens": 233245.51935001806,
+      "allocation_value": 67894.272,
+      "roi_percent": 3294.7136,
+      "model_used": "tiered_enhanced",
+      "profitability_tier": "Extremely High",
+      "accessibility_score": 65.9991967848788
+    },
+    {
+      "track_type": "Auction Participant",
+      "participant_id": "AP_Learning",
+      "participant_tier": "power_user",
+      "capital_invested": 8000.0,
+      "points_earned": 1600.0,
+      "capital_equivalent": 640.0,
+      "risk_factor": 1.0,
+      "allocation_tokens": 352068.70845285745,
+      "allocation_value": 102481.92,
+      "roi_percent": 1181.0240000000001,
+      "model_used": "tiered_enhanced",
+      "profitability_tier": "Extremely High",
+      "accessibility_score": 45.3272577677067
+    },
+    {
+      "track_type": "Auction Participant",
+      "participant_id": "AP_Skilled",
+      "participant_tier": "whale",
+      "capital_invested": 25000.0,
+      "points_earned": 12499.999999999998,
+      "capital_equivalent": 1250.0,
+      "risk_factor": 1.0,
+      "allocation_tokens": 515725.64714774035,
+      "allocation_value": 150120.0,
+      "roi_percent": 500.48,
+      "model_used": "tiered_enhanced",
+      "profitability_tier": "Very High",
+      "accessibility_score": 37.09302170314751
+    },
+    {
+      "track_type": "Auction Participant",
+      "participant_id": "AP_Expert",
+      "participant_tier": "whale",
+      "capital_invested": 75000.0,
+      "points_earned": 53550.0,
+      "capital_equivalent": 2571.0,
+      "risk_factor": 0.8,
+      "allocation_tokens": 1060744.5110534723,
+      "allocation_value": 308766.816,
+      "roi_percent": 311.68908799999997,
+      "model_used": "tiered_enhanced",
+      "profitability_tier": "High",
+      "accessibility_score": 35.86217635485623
+    },
+    {
+      "track_type": "Auction Participant",
+      "participant_id": "AP_Professional",
+      "participant_tier": "institution",
+      "capital_invested": 300000.0,
+      "points_earned": 242880.0,
+      "capital_equivalent": 5428.8,
+      "risk_factor": 0.8,
+      "allocation_tokens": 2239817.1145885224,
+      "allocation_value": 651977.1648,
+      "roi_percent": 117.32572160000001,
+      "model_used": "tiered_enhanced",
+      "profitability_tier": "High",
+      "accessibility_score": 33.32997496995074
+    }
+  ],
+  "track_analysis": {
+    "Node Operator": {
+      "total_participants": 5,
+      "total_allocation_tokens": 180777981.7566895,
+      "total_allocation_value": 52621758.819645956,
+      "avg_roi_percent": 59633.96543802637,
+      "total_capital_invested": 219000.0,
+      "avg_accessibility_score": 55.36357108468489,
+      "profitability_distribution": {
+        "Extremely High": 5
+      },
+      "tier_distribution": {
+        "power_user": 2,
+        "whale": 2,
+        "institution": 1
+      }
+    },
+    "Risk Underwriter": {
+      "total_participants": 5,
+      "total_allocation_tokens": 112986337.07385415,
+      "total_allocation_value": 32888627.92714283,
+      "avg_roi_percent": 3418.0440776990094,
+      "total_capital_invested": 1142500.0,
+      "avg_accessibility_score": 52.56094036982637,
+      "profitability_distribution": {
+        "Extremely High": 5
+      },
+      "tier_distribution": {
+        "institution": 2,
+        "retail": 1,
+        "power_user": 1,
+        "whale": 1
+      }
+    },
+    "Liquidity Provider": {
+      "total_participants": 5,
+      "total_allocation_tokens": 122750403.45027989,
+      "total_allocation_value": 35730801.18832472,
+      "avg_roi_percent": 81017.53584183393,
+      "total_capital_invested": 393600.0,
+      "avg_accessibility_score": 57.55462416249891,
+      "profitability_distribution": {
+        "Extremely High": 5
+      },
+      "tier_distribution": {
+        "whale": 2,
+        "retail": 1,
+        "power_user": 1,
+        "institution": 1
+      }
+    },
+    "Auction Participant": {
+      "total_participants": 5,
+      "total_allocation_tokens": 4401601.50059261,
+      "total_allocation_value": 1281240.1727999998,
+      "avg_roi_percent": 1081.0464819200001,
+      "total_capital_invested": 410000.0,
+      "avg_accessibility_score": 43.52232551610799,
+      "profitability_distribution": {
+        "Extremely High": 2,
+        "High": 2,
+        "Very High": 1
+      },
+      "tier_distribution": {
+        "power_user": 2,
+        "whale": 2,
+        "institution": 1
+      }
+    }
+  },
+  "tier_analysis": {
+    "retail": {
+      "participant_count": 2,
+      "avg_roi_percent": 124474.06672887022,
+      "avg_accessibility_score": 75.0160961713525,
+      "total_allocation_value": 1490885.6007464428,
+      "capital_efficiency": 1355.35054613313
+    },
+    "power_user": {
+      "participant_count": 6,
+      "avg_roi_percent": 53209.608401725534,
+      "avg_accessibility_score": 63.93684741843909,
+      "total_allocation_value": 11778351.776855335,
+      "capital_efficiency": 490.7646573689723
+    },
+    "whale": {
+      "participant_count": 7,
+      "avg_roi_percent": 18669.395887233622,
+      "avg_accessibility_score": 43.66571097655193,
+      "total_allocation_value": 36423568.723750606,
+      "capital_efficiency": 137.4474291462287
+    },
+    "institution": {
+      "participant_count": 5,
+      "avg_roi_percent": 5372.280823733505,
+      "avg_accessibility_score": 41.138810395277545,
+      "total_allocation_value": 72829622.00656113,
+      "capital_efficiency": 38.842465070165936
+    }
+  },
+  "overall_metrics": {
+    "total_participants": 20,
+    "total_tokens_allocated": 420916323.78141606,
+    "total_value_allocated": 122522428.10791351,
+    "average_roi": 36287.64795986982,
+    "average_accessibility": 52.25036528327955,
+    "total_capital_invested": 2165100.0,
+    "capital_efficiency_ratio": 56.58973170195996,
+    "airdrop_utilization": 0.0612122442585499,
+    "mass_market_score": 52.40014611331182
+  },
+  "generation_timestamp": "2025-06-28T16:58:10.375639"
+}

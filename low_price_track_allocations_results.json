@@ -1,0 +1,242 @@
+{
+  "scenario_parameters": {
+    "launch_price": 0.1,
+    "total_supply": 1350000000,
+    "airdrop_percent": 20.0,
+    "market_cap": 135000000,
+    "opportunity_cost": 0.5,
+    "volatility": 20.0,
+    "revenue_share": 40.0
+  },
+  "detailed_results": [
+    {
+      "Track": "Node Operator",
+      "Participant": "NO_Small",
+      "Capital_Invested": 5000.0,
+      "Points": 5.6145,
+      "Capital_Equivalent": 28072.499999999996,
+      "Risk_Factor": 0.8,
+      "Allocation_Tokens": 452380.95119047625,
+      "Allocation_Value": 45238.095119047626,
+      "Model": "quadratic",
+      "ROI_Percent": 904.7619023809526
+    },
+    {
+      "Track": "Node Operator",
+      "Participant": "NO_Medium",
+      "Capital_Invested": 25000.0,
+      "Points": 59.519999999999996,
+      "Capital_Equivalent": 59520.0,
+      "Risk_Factor": 0.8,
+      "Allocation_Tokens": 658711.4694614024,
+      "Allocation_Value": 65871.14694614024,
+      "Model": "quadratic",
+      "ROI_Percent": 263.484587784561
+    },
+    {
+      "Track": "Node Operator",
+      "Participant": "NO_Large",
+      "Capital_Invested": 100000.0,
+      "Points": 377.24399999999997,
+      "Capital_Equivalent": 94310.99999999999,
+      "Risk_Factor": 0.8,
+      "Allocation_Tokens": 829172.5936136578,
+      "Allocation_Value": 82917.25936136578,
+      "Model": "quadratic",
+      "ROI_Percent": 82.91725936136578
+    },
+    {
+      "Track": "Node Operator",
+      "Participant": "NO_Enterprise",
+      "Capital_Invested": 250000.0,
+      "Points": 1318.68,
+      "Capital_Equivalent": 131868.0,
+      "Risk_Factor": 0.8,
+      "Allocation_Tokens": 980468.112689036,
+      "Allocation_Value": 98046.8112689036,
+      "Model": "quadratic",
+      "ROI_Percent": 39.21872450756144
+    },
+    {
+      "Track": "Risk Underwriter",
+      "Participant": "RU_Retail",
+      "Capital_Invested": 1000.0,
+      "Points": 250.0,
+      "Capital_Equivalent": 1000.0,
+      "Risk_Factor": 1.2,
+      "Allocation_Tokens": 2700.0,
+      "Allocation_Value": 270.0,
+      "Model": "linear",
+      "ROI_Percent": 27.0
+    },
+    {
+      "Track": "Risk Underwriter",
+      "Participant": "RU_Power",
+      "Capital_Invested": 10000.0,
+      "Points": 12000.0,
+      "Capital_Equivalent": 10000.0,
+      "Risk_Factor": 1.2,
+      "Allocation_Tokens": 27000.0,
+      "Allocation_Value": 2700.0,
+      "Model": "linear",
+      "ROI_Percent": 27.0
+    },
+    {
+      "Track": "Risk Underwriter",
+      "Participant": "RU_Whale",
+      "Capital_Invested": 300000.0,
+      "Points": 225000.0,
+      "Capital_Equivalent": 300000.0,
+      "Risk_Factor": 1.2,
+      "Allocation_Tokens": 810000.0,
+      "Allocation_Value": 81000.0,
+      "Model": "linear",
+      "ROI_Percent": 27.0
+    },
+    {
+      "Track": "Risk Underwriter",
+      "Participant": "RU_Institution",
+      "Capital_Invested": 1500000.0,
+      "Points": 3000000.0,
+      "Capital_Equivalent": 1500000.0,
+      "Risk_Factor": 1.2,
+      "Allocation_Tokens": 4050000.0,
+      "Allocation_Value": 405000.0,
+      "Model": "linear",
+      "ROI_Percent": 27.0
+    },
+    {
+      "Track": "Liquidity Provider",
+      "Participant": "LP_Small",
+      "Capital_Invested": 1500.0,
+      "Points": 0.25,
+      "Capital_Equivalent": 1500.0,
+      "Risk_Factor": 0.6,
+      "Allocation_Tokens": 104570.55034760026,
+      "Allocation_Value": 10457.055034760027,
+      "Model": "quadratic",
+      "ROI_Percent": 697.1370023173351
+    },
+    {
+      "Track": "Liquidity Provider",
+      "Participant": "LP_Medium",
+      "Capital_Invested": 15000.0,
+      "Points": 5.5,
+      "Capital_Equivalent": 15000.0,
+      "Risk_Factor": 0.6,
+      "Allocation_Tokens": 330681.1152757291,
+      "Allocation_Value": 33068.11152757291,
+      "Model": "quadratic",
+      "ROI_Percent": 220.45407685048608
+    },
+    {
+      "Track": "Liquidity Provider",
+      "Participant": "LP_Large",
+      "Capital_Invested": 150000.0,
+      "Points": 90.0,
+      "Capital_Equivalent": 150000.0,
+      "Risk_Factor": 0.6,
+      "Allocation_Tokens": 1045705.5034760027,
+      "Allocation_Value": 104570.55034760028,
+      "Model": "quadratic",
+      "ROI_Percent": 69.71370023173353
+    },
+    {
+      "Track": "Liquidity Provider",
+      "Participant": "LP_Whale",
+      "Capital_Invested": 600000.0,
+      "Points": 520.0,
+      "Capital_Equivalent": 600000.0,
+      "Risk_Factor": 0.6,
+      "Allocation_Tokens": 2091411.0069520054,
+      "Allocation_Value": 209141.10069520056,
+      "Model": "quadratic",
+      "ROI_Percent": 34.85685011586676
+    },
+    {
+      "Track": "Auction Participant",
+      "Participant": "AP_Novice",
+      "Capital_Invested": 5000.0,
+      "Points": 675.0,
+      "Capital_Equivalent": 567.5,
+      "Risk_Factor": 1.5,
+      "Allocation_Tokens": 4596.75,
+      "Allocation_Value": 459.675,
+      "Model": "tiered",
+      "ROI_Percent": 9.1935
+    },
+    {
+      "Track": "Auction Participant",
+      "Participant": "AP_Skilled",
+      "Capital_Invested": 25000.0,
+      "Points": 13500.0,
+      "Capital_Equivalent": 1540.0,
+      "Risk_Factor": 1.0,
+      "Allocation_Tokens": 9979.199999999999,
+      "Allocation_Value": 997.92,
+      "Model": "tiered",
+      "ROI_Percent": 3.9916799999999997
+    },
+    {
+      "Track": "Auction Participant",
+      "Participant": "AP_Expert",
+      "Capital_Invested": 100000.0,
+      "Points": 71400.0,
+      "Capital_Equivalent": 3428.0,
+      "Risk_Factor": 0.8,
+      "Allocation_Tokens": 22213.44,
+      "Allocation_Value": 2221.344,
+      "Model": "tiered",
+      "ROI_Percent": 2.221344
+    },
+    {
+      "Track": "Auction Participant",
+      "Participant": "AP_Professional",
+      "Capital_Invested": 500000.0,
+      "Points": 404800.0,
+      "Capital_Equivalent": 9048.0,
+      "Risk_Factor": 0.8,
+      "Allocation_Tokens": 58631.04,
+      "Allocation_Value": 5863.104,
+      "Model": "tiered",
+      "ROI_Percent": 1.1726208
+    }
+  ],
+  "track_summary": {
+    "Node Operator": {
+      "total_allocation_tokens": 2920733.1269545723,
+      "total_allocation_value": 292073.31269545725,
+      "avg_roi_percent": 322.5956185086102,
+      "total_capital_invested": 380000.0,
+      "allocation_model": "quadratic",
+      "risk_factor": 0.8
+    },
+    "Risk Underwriter": {
+      "total_allocation_tokens": 4889700.0,
+      "total_allocation_value": 488970.0,
+      "avg_roi_percent": 27.0,
+      "total_capital_invested": 1811000.0,
+      "allocation_model": "linear",
+      "risk_factor": 1.2
+    },
+    "Liquidity Provider": {
+      "total_allocation_tokens": 3572368.1760513373,
+      "total_allocation_value": 357236.81760513375,
+      "avg_roi_percent": 255.54040737885538,
+      "total_capital_invested": 766500.0,
+      "allocation_model": "quadratic",
+      "risk_factor": 0.6
+    },
+    "Auction Participant": {
+      "total_allocation_tokens": 95420.43,
+      "total_allocation_value": 9542.043000000001,
+      "avg_roi_percent": 4.1447861999999995,
+      "total_capital_invested": 630000.0,
+      "allocation_model": "tiered",
+      "risk_factor": 1.025
+    }
+  },
+  "total_tokens_allocated": 11478221.733005911,
+  "total_value_allocated": 1147822.1733005908,
+  "average_roi": 152.3202030218664
+}
