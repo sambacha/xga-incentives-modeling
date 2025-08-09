@@ -1,0 +1,50 @@
+[project]
+name = "airdrop-calculator"
+version = "0.1.0"
+description = "An enhanced airdrop parameter calculator"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "z3-solver",
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "seaborn",
+    "scipy",
+    "click"
+]
+
+[project.scripts]
+airdrop-calculator = "airdrop_calculator.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["airdrop_calculator*"]
+
+[dependency-groups]
+dev = [
+    "pytest-cov>=6.1.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-benchmark",
+    "pytest-cov",
+    "flake8",
+    "black",
+    "tox"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v --tb=short"
+pythonpath = ["src"]
+markers = [
+    "integration: marks tests as integration tests",
+    "benchmark: marks tests as benchmark tests",
+    "slow: marks tests as slow tests"
+]
